@@ -31,7 +31,7 @@ function draw() {
 function writePosition(x, y) {
     database.ref("bola/posicao").set((
         x: position.x + x,
-        y: position.y = y
+        y: position.y + y
     
     
     });
